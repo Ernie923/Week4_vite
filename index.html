@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>index</title>
+    <script type="module" crossorigin src="/week4_vite/assets/main-3b1eb9bf.js"></script>
+    <link rel="stylesheet" href="/week4_vite/assets/main-fa6eb9fe.css">
+  </head>
+  <body>
+    <header>
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <a href="index.html"><img src="data:image/png;base64,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" alt="logo"></a>
+        </div>
+        <ul class="navbar d-flex">
+            <li><a href="../pages/optical.html">系列鏡框</a></li>
+            <li><a href="#">門市據點</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+        </ul>
+    </div>
+</header>
+    <div class="banner">
+      <div class="container">
+          <div class="banner-text">
+              <p>Promise-Desert 2020 早春系列</p>
+              <h1>看得清，才能看得遠</h1>
+              <button type="button">立即購買</button>
+          </div>
+      </div>
+  </div>
+  <div class="service">
+      <div class="container">
+          <h2>用專業的心，做專業的事</h2>
+          <div class="row">
+              <div class="col-3 col-md-6 col-sm-12">
+                  <span class="material-symbols-outlined">paid</span>
+                  <h3>單一價格</h3>
+                  <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+              </div>
+              <div class="col-3 col-md-6 col-sm-12">
+                  <span class="material-symbols-outlined">schedule</span>
+                  <h3>20 分鐘即可取件</h3>
+                  <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+              </div>
+              <div class="col-3 col-md-6 col-sm-12">
+                  <span class="material-symbols-outlined">favorite</span>
+                  <h3>安心售後服務</h3>
+                  <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。<p>
+              </div>
+              <div class="col-3 col-md-6 col-sm-12">
+                  <span class="material-symbols-outlined voicemail">voicemail</span>
+                  <h3>關於鏡片</h3>
+                  <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="product-1">
+      <div class="container">
+          <h2>經典系列鏡框</h2>
+          <div class="row">
+              <div class="col-4 col-md-6 col-sm-12">
+                  <img src="/week4_vite/assets/home-section3-1-bb26ab65.png" alt="OPTICAL">
+                  <p>OPTICAL</p>
+              </div>
+              <div class="col-4 col-md-6 col-sm-12">
+                  <img src="/week4_vite/assets/home-section3-2-38fdd6aa.png" alt="SUNGLASSES">
+                  <p>SUNGLASSES</p>
+              </div>
+              <div class="col-4 col-md-6 col-sm-12">
+                  <img src="/week4_vite/assets/home-section3-3-52db7b9d.png" alt="SUNGLASSES">
+                  <p>SUNGLASSES</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="product-2">
+      <div class="container">
+          <h2>聯名設計鏡框</h2>
+          <div class="row">
+              <div class="col-6">
+                  <picture>
+                      <source media="(max-width: 576px)" srcset="/week4_vite/assets/home-section4-1-sm-a801b136.png ">
+                      <img src="/week4_vite/assets/home-section4-1-59894574.png" alt="DOUBLE A+">
+                  </picture>
+                  <p>DOUBLE A+</p>
+              </div>
+              <div class="col-6">
+                  <picture>
+                      <source media="(max-width: 576px)" srcset="/week4_vite/assets/home-section4-2-sm-2f57b61a.png ">
+                      <img src="/week4_vite/assets/home-section4-2-daaeb8bc.png" alt="YOUTH">
+                  </picture>
+                  <p>YOUTH</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="customer">
+      <div class="container">
+          <h2>顧客推薦</h2>
+          <div class="row">
+              <div class="col-3 col-md-6 col-sm-12">
+                  <div class="card d-flex">
+                      <img src="/week4_vite/assets/home-section5-1-75717951.png" alt="Jessy">
+                      <h3>Jessy</h3>
+                      <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+                      <time datetime="">2021/06/20</time>
+                  </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-12">
+                  <div class="card d-flex">
+                      <img src="/week4_vite/assets/home-section5-2-bf28c8b7.png" alt="凱倫">
+                      <h3>凱倫</h3>
+                      <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                      <time datetime="">2021/04/18</time>
+                  </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-12">
+                  <div class="card d-flex">
+                      <img src="/week4_vite/assets/home-section5-3-978a0702.png" alt="悠悠">
+                      <h3>悠悠</h3>
+                      <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                      <time datetime="">2020/12/25</time>
+                  </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-12">
+                  <div class="card d-flex">
+                      <img src="/week4_vite/assets/home-section5-4-cc3480ec.png" alt="Kyuan">
+                      <h3>Kyuan</h3>
+                      <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+                      <time datetime="">2020/10/31</time>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <h2>聯絡我們</h2>
+              </div>
+              <div class="col-6 col-md-12">
+                  <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+              </div>
+              <div class="col-6 col-md-12 info">
+                  <label for="name">姓名</label>
+                  <input type="text" placeholder="陳小明" id="name">
+              </div>
+              <div class="col-6 col-md-12 info">
+                  <label for="tel">聯絡電話</label>
+                  <input type="text" placeholder="0912-345-678" id="tel">
+              </div>
+              <div class="col-6 col-md-12 info">
+                  <label for="mail">電子郵件</label>
+                  <input type="text" placeholder="example@email.com" id="mail">
+              </div>
+              <div class="col-6 col-md-12 info">
+                  <label for="opnion">意見反應</label>
+                  <textarea name="" id="opnion" placeholder="請輸入您的意見" rows="8"></textarea>
+              </div>
+              <div class="col-6 col-md-12 check d-flex">
+                  <input type="checkbox">
+                  <span>我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span>
+              </div>
+              <div class="col-6 col-md-12 submit">
+                  <button type="button">確認送出</button>
+              </div>
+          </div>            
+      </div>
+  </div>
+
+    <footer>
+    <div class="container">
+        <div class="desc d-flex justify-content-between align-items-start">
+            <div class="desc-info">
+                <ul class="navbar d-flex">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="../pages/optical.html">系列鏡框</a></li>
+                    <li><a href="#">門市據點</a></li>
+                    <li><a href="#">部落格</a></li>
+                    <li><a href="#">常見問題</a></li>
+                </ul>
+                <a href="tel:0800-000-00" class="tel d-flex align-items-center" target="_blank">
+                    <span class="material-symbols-outlined">call</span>
+                    <p>0800-000-000</p>
+                </a>
+                <a href="mailto:glasses@business.com" class="mail d-flex align-items-center" target="_blank">
+                    <span class="material-symbols-outlined">mail</span>
+                    <p>glasses@business.com</p>
+                </a>
+            </div>
+            <div class="desc-icon">
+                <ul class="d-flex">
+                    <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAe1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NgkbwAAAAKXRSTlMAED9vf7/P/++fIN9fMI+vQHDwwNBQgGCQoLAnBU4KYhF1FpIenBST4NjHe8YAAAIaSURBVHgB7dYFsuM6EIXh06E2RPeZIoff8Hj/GxxGZ+wjSqG/oov6S4aOsHC3WMhqvdlud/pFtt3mm1WBhFabrT4o870gBfOS6ZT/9oi13+msbCNRy5dKRSSqnTrJ1gghL+psZ+DNlOrDexNr9bQV+MiViLtMstMAmUmwfnyBrx9f2CoRWcg1QilganXQtN91OrYDYZTqaoPfqoP+xWKWlEq0FUb0bwZzrBIWD3xuQ8Gu/QE0oDbiCe3hEMgKTKl03hEuAT2FbqARt4AWgRuwIAG2hTMJiGsgk6BHqIVrQGs+JPgVkn2+/UbVcWDsSKDCn/pMZxTkCvF/6vUBu0a9EviDZP736+wTOCiBR5kSXkPxgrGrJg3cMHZPG/gfY6/SBl5j7E3awFuMvUsbeL8EkgVaMPbZgfbZgfLZAXUMfPAMkMPsR9dRQQMH11FxDwxY12F3DQycXMc1hrBA6/qBg3NYwP0jsw4KCL2y5NhSbn7BH6rND7n7sQVdwmFXkKNjbGAgh9/oQE2O79EBwT9VqQInTOgSBQpMqNIETpjUJgkUZLjHBixmHOMDA+bIEB2oMMvEBiyIOi7QgjrFBAYBJV14oDGAe4EH+Pq0QAJkfVIgAbI+cfIPdAY+rG+gFfipGq+AhTc58QC7PETVuQWaGqH6gQeaoyBC380HGiuIZE7NZODcI4nq2D0GmlMvSKiq//ruUGCxWDj6DFdye+ioNlViAAAAAElFTkSuQmCC" alt="fb"></a></li>
+                    <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAeFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////GqOSsAAAAKHRSTlMAPzBvn7//749fIEDfEGDgwKBwgLDwUM/Qf5ACCRMYHa9PFSw8KBwM90qh6AAAAuxJREFUeAHt2OditCoQBuBZgsMuCOpa03ty/1d4GmKaAwLn6/v8tbwoHTg5OQnaBTBIxc54gZuIYn+QEEdxgXHKfUTGocQUhYJNWIGpuIawM8wgFIRwzGPi31/VtHCC5/1Vc1QSwphqux7fDEAb0OkbBjGGGh0hgSIFzjoJsVSFsxEoDc6OkEB3oWpgG1tCsIAicL2FVJO3hBqtGiIN++Kc2Ur01oJBS0Gc7l21tWhJ+kacIM7F+3JJXysRSTWscVa/L2XnaUMSoih04F9Huh0NW/6Q3O122hfA0LqEL1r3cQR94CNaxTmjfhGgdUVWVksU/dMcWp5rV7CPjW8iA2pPgOb4hThfaabLa67JAAVfGYFrRjZXQ9u1ElxcQgBHgjArVUkGjFQAR5qJCEAigKOPIQJuNge0uJgu/ruoh6bHBVu//5YMkFRHrQZY6HaJKHVkAHygS5xdfLowERciA1q6NhucsYwALTxTVI1WkxFg1t7h6AotmRzg+kavvauoY3KA9K8C3E8akwMMWhpWENeHmIA2sMzQK51ThQLoEZz+R8fMABMKaDMDFFDanz0g/hf9+ErOb6bDN+lo32qoKNxiMDXAraLEtxrs4IgWhxW6zB+ude+ZcO7Qar7RlMkTp0xi1sL9pwtj6qQvqb1/qWChzwXOeh0ZoFZW9bNx3hbc8xIXCjIDoMEPxLal4wN8MREB0EUufuOX7w0SegN5AY7pcc3E6N32ddwWSjYrxW99I/h1eBPoj6haDatGtwmM38aaZkKrvhiAgmTA4JZpPkwpJcFD0htxhpaGHGauIFjRu6adznsY4q4VkIw+zok/kCJ4D6Q0Zn+CFN4jm2b5vlQFeutR5R5rcrQqIHRZCZoHH5c9zu40xFIjziYgGXTEXkKM+zt0ehk4HHbG/WEHG+jdGS/J4306wSkLH0FPcnRCFgMhR8zQKwhjE6bqNGxiKkxRK9hsaHqMU11IiKPlI1ObPLHnl1f4gU5OTv4GYulZF3YBhIwAAAAASUVORK5CYII=" alt="ig"></a></li>
+                    <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAVFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////8wXzyWAAAAHHRSTlMAP19/r+//3zDPQGCwoMCAkNDwcBDgIFC/j59v4ENljAAAAn5JREFUeAHt2dFuqzgUheGV9HhhbMDgGCDJ+7/nCA0ZmmmAbUNPVSnfFVJV/pot3+zi7e23Op0/op1PEDr/UUyi/pwlr8+4Q7aV0Dl3yjVWGMXdlMEiy0NYLDA8iMFLWvEgSuOVnIfJBQM4fgwZD5QlHyD9CAUPVeL/FLdUlftXXTXcouLugC+txhNzKeLugl17u8YrwRYRQ3Bc0NqARV3JJU4W8BbrunpXoAzYpKvkgO8h4hIDTYCQ8SmBIkBM+/hAiRjBxwaagCjaxwXagEgmLqARzcUEHBI08kAbkMDIAxZJCmnAByQx0kCNRI0woDGph6F//Hx87IbhipEdBov+y52sZYEWDxXpPj+ax3wc6eZfqTDRskC1GlB6OQBZwK0GmIc50JiRnocgClzWA7zNgQrPKlHAbATY/xfIPkYWD+UBgZJU3dIM3AGB0JD5UqA6YAbQnlRTwFejS2TArQdgSS4MOYu/B7fTKHwOoCCfhtxjEigKqK8ndk+B0PL1DHpZgGYjAL0QKIWBEpNiTpakhSY9Rhfygr6a1JgoYUAFJLEUBuiQImSiQPoRHMUB1ogXVESABtFyxgRUh0g3RgWYB0SxlATSC5rRAeYdxLRKCFCZ9PeLAuQdIkYxMcDByOabHCBvHTbcmRSYXTVWhBtTA7Ps3gn2rOmBUX67a3zVK8oD24YznoQrGRGQuMg+T3qgwuyu+J2BbiC/IVAv/PmCgI2Zgc7j95pGvvUO16QFuaeAFn2dkU9bzH6c7hlFir+/WkbLA7U/sd5Hw8M00s1eIq/xUs+DmJ/6NxfQe+7mDVbohjs1Gutsyx1ai2228EziCwshY100a/D29kv9A9BRftNS1kHVAAAAAElFTkSuQmCC" alt="line"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end d-flex justify-content-between">
+            <p>Copyright © 2020 Glasses.All rights reserved.</p>
+            <ul class="d-flex">
+                <li><a href="#">隱私權政策</a></li>
+                <li><a href="#">服務條款</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    
+  </body>
+</html>
